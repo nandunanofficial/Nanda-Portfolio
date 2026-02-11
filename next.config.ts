@@ -7,7 +7,9 @@ const nextConfig: NextConfig = {
   trailingSlash: true,
   images: {
     unoptimized: true
-  }
+  },
+  assetPrefix: '/Nanda-Portfolio',
+  basePath: '/Nanda-Portfolio'
 };
 
 export default nextConfig;
