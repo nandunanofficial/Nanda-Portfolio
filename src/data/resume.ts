@@ -4,8 +4,9 @@ export const resumeData = {
     location: "Vellore, India",
     phone: "+91 81247 39179",
     email: "nandunan264@gmail.com",
-    linkedin: "https://linkedin.com/in/nandakumarv",
-    github: "https://github.com/nandakumarv"
+    linkedin: "https://www.linkedin.com/in/nanda-kumar-7b4634285/",
+    github: "https://github.com/nandunanofficial",
+    resume: "https://drive.google.com/file/d/15ATFjffycxCeClr-fxOEJBKzZmb4ClHn/view?usp=sharing"
   },
   profile: "Motivated and curious Software Engineering student with a strong foundation in software development, machine learning, and intelligent system design. Passionate about solving real-world problems through innovative and scalable technology solutions. Possesses experience in developing software applications, working with data-driven models, and building integrated hardware–software systems. Eager to contribute to impactful projects, research initiatives, and collaborative development environments while continuously expanding technical and problem-solving skills.",
   education: {

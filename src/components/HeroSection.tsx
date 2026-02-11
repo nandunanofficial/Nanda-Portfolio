@@ -136,8 +136,8 @@ export default function HeroSection() {
 
             <Button
               size="lg"
-              variant="secondary"
               className="glass-effect hover:scale-105 transition-transform duration-300"
+              onClick={() => window.open(resumeData.personal.resume, '_blank')}
             >
               <Download className="w-5 h-5 mr-2" />
               Download Resume

@@ -61,7 +61,7 @@ export default function AboutSection() {
             variants={itemVariants}
             className="glass-effect rounded-2xl p-8 md:p-12"
           >
-            <p className="text-lg md:text-xl leading-relaxed text-foreground">
+            <p className="text-lg md:text-xl leading-relaxed text-foreground font-medium">
               {resumeData.profile}
             </p>
 
