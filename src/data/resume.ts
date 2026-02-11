@@ -19,7 +19,7 @@ export const resumeData = {
   projects: [
     {
       title: "Air Quality Prediction",
-      github: "https://github.com/nandakumarv/air-quality-prediction",
+      github: "https://github.com/nandunanofficial/Air-Quality-Prediction-System-with-LSTM-Random-Forest-OpenWeather-API",
       technologies: ["LSTM", "Random Forest", "OpenWeather API", "Python"],
       description: [
         "Developed a real-time AQI prediction system for 10 cities using weather API data.",
@@ -29,7 +29,7 @@ export const resumeData = {
     },
     {
       title: "DDoS Mitigation System for IoT Environments",
-      github: "https://github.com/nandakumarv/ddos-mitigation-iot",
+      github: "https://github.com/nandunanofficial/Real-Time-DDoS-Detection-and-Mitigation-System-for-IoT-Networks",
       technologies: ["Python", "Scapy", "Network Security"],
       description: [
         "Developed real-time network monitoring to detect abnormal traffic in IoT systems.",
@@ -39,7 +39,7 @@ export const resumeData = {
     },
     {
       title: "Craftopia – E-Commerce Platform for Artisans",
-      github: "https://github.com/nandakumarv/craftopia",
+      github: "https://github.com/nandunanofficial/Craftopia---Online-Crafts-Selling-Site",
       technologies: ["Java", "JavaScript", "Web Development"],
       description: [
         "Designed and developed a web platform enabling artisans to showcase and sell handmade products.",

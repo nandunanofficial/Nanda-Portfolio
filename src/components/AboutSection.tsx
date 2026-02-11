@@ -60,8 +60,13 @@ export default function AboutSection() {
           <motion.div
             variants={itemVariants}
             className="glass-effect rounded-2xl p-8 md:p-12"
+            style={{
+              backgroundColor: 'rgba(15, 23, 42, 0.85)',
+              backdropFilter: 'blur(20px)',
+              border: '1px solid rgba(255, 255, 255, 0.2)'
+            }}
           >
-            <p className="text-lg md:text-xl leading-relaxed text-foreground font-medium">
+            <p className="text-lg md:text-xl leading-relaxed text-white font-semibold">
               {resumeData.profile}
             </p>
 
@@ -72,9 +77,9 @@ export default function AboutSection() {
               <div className="space-y-4">
                 <h3 className="text-2xl font-semibold gradient-text">Education</h3>
                 <div className="space-y-2">
-                  <p className="font-medium text-foreground">{resumeData.education.institution}</p>
-                  <p className="text-foreground">{resumeData.education.degree}</p>
-                  <p className="text-sm text-muted-foreground">{resumeData.education.period}</p>
+                  <p className="font-medium text-white">{resumeData.education.institution}</p>
+                  <p className="text-white">{resumeData.education.degree}</p>
+                  <p className="text-sm text-gray-300">{resumeData.education.period}</p>
                   <p className="text-sm font-medium text-primary">CGPA: {resumeData.education.cgpa}</p>
                 </div>
               </div>
@@ -85,7 +90,7 @@ export default function AboutSection() {
                   {['Machine Learning', 'Software Development', 'Network Security', 'Web Development'].map((interest) => (
                     <span
                       key={interest}
-                      className="px-3 py-1 rounded-full bg-primary/10 text-primary border border-primary/20 text-sm"
+                      className="px-3 py-1 rounded-full bg-primary/20 text-white border border-primary/20 text-sm"
                     >
                       {interest}
                     </span>
